@@ -24,6 +24,7 @@
                 <li><a href="#rsvp">RSVP</a></li>
                 <li><a href="#faq">FAQ</a></li>
                 <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#live">Live</a></li>
 
 <!--
                 <li><a href="#home" data-i18n="home">Home</a></li>
@@ -88,6 +89,37 @@
             </ul>
         </div>
     </section>
+
+
+
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->   
+
+<section id="live" class="live-stream">
+    <!-- Sezione per la password -->
+    <div class="password-container">
+        <h2>Live Stream</h2>
+        <p>Inserisci la password per accedere alla live:</p>
+        <input type="password" id="password-input" placeholder="Inserisci la password">
+        <button id="submit-password">Accedi</button>
+        <p id="error-message" style="color: red; display: none;">Password errata, riprova.</p>
+    </div>
+
+    <!-- Sezione per il video nascosta di default -->
+    <div class="video-container" id="video-container" style="display: none;">
+        <iframe src="https://www.youtube.com/embed/-mJKQtzWlGA?si=rbHBrP3Nd216umKj"
+                title="Live Wedding Stream"
+                width="800"
+                height="450"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+
+<!--@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
+
 
 
     <!-- RSVP Section -->

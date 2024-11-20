@@ -44,7 +44,7 @@ document.getElementById('rsvp-form').addEventListener('submit', function(event) 
 
     // Dopo 5 secondi, reindirizza l'utente al tuo sito
     setTimeout(function() {
-        window.location.href = "file:///C:/Users/zmehm/OneDrive/Desktop/SITO_MATRIMONIO/Wedding/index.html"; // Modifica con la tua homepage o altra pagina del sito
+        window.location.href = "https://zakriawedding.github.io/wedding/"; // Modifica con la tua homepage o altra pagina del sito
     }, 300); // 5000ms = 5 secondi
 
 
@@ -175,6 +175,45 @@ window.onscroll = function () {
         document.querySelector('header').classList.remove('hide');
     }
 }
+
+
+/* __________________________________________________________________________ */
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("submit-password").addEventListener("click", function () {
+        // La password corretta
+        const correctPassword = "wedding2024";
+
+        // Valore inserito dall'utente
+        const userPassword = document.getElementById("password-input").value;
+
+        // Elementi della pagina
+        const videoContainer = document.getElementById("video-container");
+        const passwordContainer = document.querySelector(".password-container");
+        const errorMessage = document.getElementById("error-message");
+
+        // Verifica la password
+        if (userPassword === correctPassword) {
+            // Mostra il video e nasconde il form
+            videoContainer.style.display = "block";
+            passwordContainer.style.display = "none";
+        } else {
+            // Mostra il messaggio di errore
+            errorMessage.style.display = "block";
+        }
+    });
+});
+
+
+
+/* __________________________________________________________________________________ */
+
+
+
+
+
+
 /*
 i18next.init({
     lng: 'en', // lingua predefinita

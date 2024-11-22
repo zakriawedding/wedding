@@ -1260,31 +1260,24 @@ footer p {
 
 /****_________________________________________*____________________________****/
 
-/* Stili per desktop */
+
+/* Stili generali per desktop */
 body {
     font-size: 18px;
     padding: 20px;
 }
 
-/* Stili per tablet */
+/* Stili per dispositivi mobili */
 @media (max-width: 768px) {
-    body {
-        font-size: 16px;
-        padding: 15px;
-    }
-}
-
-/* Stili per smartphone */
-@media (max-width: 480px) {
     body {
         font-size: 14px;
         padding: 10px;
     }
-
     .header {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
+
 
 
 

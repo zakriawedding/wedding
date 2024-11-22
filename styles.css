@@ -1262,13 +1262,13 @@ footer p {
 
 
 /* Stili generali per desktop */
-body {
+/*body {
     font-size: 18px;
     padding: 20px;
-}
+}*/
 
 /* Stili per dispositivi mobili */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     body {
         font-size: 14px;
         padding: 10px;
@@ -1277,7 +1277,7 @@ body {
         font-size: 16px;
     }
 }
-
+*/
 
 
 

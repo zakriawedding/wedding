@@ -1256,3 +1256,36 @@ footer p {
         text-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 15px rgba(255, 255, 255, 0.3);
     }
 }
+
+
+/****_________________________________________*____________________________****/
+
+/* Stili per desktop */
+body {
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Stili per tablet */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
+
+/* Stili per smartphone */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .header {
+        font-size: 18px;
+    }
+}
+
+
+
+/****_________________________________________*____________________________****/
